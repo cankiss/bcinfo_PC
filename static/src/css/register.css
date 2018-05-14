@@ -1,0 +1,178 @@
+.disabled {
+  background: #ccc!important;
+}
+.content-box {
+  background: #FAFBFD;
+  padding: 20px 0 20px 0;
+}
+.content-box .display-none {
+  display: none;
+}
+.content-box .content {
+  width: 1190px;
+  margin: 0 auto;
+  background: #fff;
+  height: 860px;
+  box-shadow: 0px 0px 1px 1px #eee;
+}
+.content-box .content .header-bar {
+  padding: 52px 0 18px 90px;
+}
+.content-box .content .header-bar a {
+  text-decoration: none;
+  text-align: center;
+  color: #0F27A7;
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+  line-height: 30px;
+  border: 1px solid #0F27A7;
+}
+.content-box .content .setp-bar {
+  text-align: center;
+}
+.content-box .content .setp-bar ul {
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  width: 570px;
+  margin: 0 auto;
+}
+.content-box .content .setp-bar ul li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  float: left;
+  color: #999999;
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.content-box .content .setp-bar ul .active {
+  color: #425DF1;
+}
+.content-box .content .form-box {
+  text-align: center;
+}
+.content-box .content .form-box .form-item {
+  width: 360px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-bottom: 36px;
+  overflow: hidden;
+}
+.content-box .content .form-box .form-item label {
+  color: #000000;
+  font-size: 16px;
+  width: 109px;
+  border-right: 1px solid #ccc;
+  display: inline-block;
+  height: 40px;
+  float: left;
+  text-align: left;
+  text-indent: 10px;
+}
+.content-box .content .form-box .form-item input {
+  border: none;
+  outline: none;
+  float: left;
+  width: 160px;
+  text-indent: 10px;
+  padding: 11px 0;
+}
+.content-box .content .form-box .last-form-item {
+  margin-bottom: 20px;
+}
+.content-box .content .form-box .button {
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  background: #425DF1;
+  border-radius: 4px;
+  outline: none;
+}
+.content-box .content .form-box .validate {
+  height: 40px;
+  width: 82px;
+  float: right;
+}
+.content-box .content .form-box .eye {
+  background: none;
+}
+.content-box .content .form-box .submit-button {
+  display: inline-block;
+  width: 500px;
+  height: 44px;
+  border-radius: 4px;
+  background: -webkit-linear-gradient(left, #435ef2, #061d9a);
+  background: -o-linear-gradient(left, #435ef2, #061d9a);
+  background: -moz-linear-gradient(left, #435ef2, #061d9a);
+  background: -ms-linear-gradient(left, #435ef2, #061d9a);
+  background: linear-gradient(left, #435ef2, #061d9a);
+}
+.content-box .content .form-box .protocol-bar {
+  border: none;
+  margin-bottom: 50px;
+  position: relative;
+}
+.content-box .content .form-box .protocol-bar #checkButton {
+  width: 20px;
+  height: 20px;
+  background: none;
+  border: none;
+  background: url('../img/register/chosen.png') no-repeat;
+  cursor: pointer;
+  outline: none;
+  position: absolute;
+  top: 12px;
+  left: 440px;
+}
+.content-box .content .tips {
+  color: #425DF1;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+.content-box .scccess-content {
+  text-align: center;
+}
+.content-box .scccess-content div h2 {
+  color: #333333;
+  font-size: 30px;
+  line-height: 42px;
+}
+.content-box .scccess-content div h3 {
+  font-size: 28px;
+  font-weight: normal;
+}
+.content-box .scccess-content div h4 {
+  color: #333333;
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: normal;
+  margin: 16px;
+}
+.content-box .scccess-content div h4 #candy-link {
+  border: none;
+}
+.content-box .scccess-content .top-bar {
+  margin-bottom: 50px;
+}
+.content-box .scccess-content a {
+  height: 60px;
+  width: 360px;
+  display: inline-block;
+  line-height: 60px;
+  color: #fff;
+  font-size: 26px;
+  background: -webkit-linear-gradient(left, #435ef2, #061d9a);
+  background: -o-linear-gradient(left, #435ef2, #061d9a);
+  background: -moz-linear-gradient(left, #435ef2, #061d9a);
+  background: -ms-linear-gradient(left, #435ef2, #061d9a);
+  background: linear-gradient(left, #435ef2, #061d9a);
+}

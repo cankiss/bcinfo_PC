@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="14-资讯-新闻热点" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-275.000000, -492.000000)">
+        <g id="箭头-2" transform="translate(305.000000, 522.000000) scale(-1, 1) translate(-305.000000, -522.000000) translate(275.000000, 492.000000)" fill="#1C294C" fill-rule="nonzero">
+            <path d="M44.9303917,30.349654 L19.0976481,56.1718334 C18.1556826,57.113799 16.6326917,57.1067562 15.6977689,56.1559873 C14.7629846,55.2022243 14.769264,53.6739862 15.7118544,52.7279372 L38.0883769,30.3619788 L15.7171364,8.15096052 C14.7706446,7.20821273 14.75965,5.67917161 15.6924869,4.7229104 C16.1380807,4.26532188 16.7482306,4.00503353 17.3869141,4.00007224 C18.0255975,3.99511094 18.6397174,4.24588915 19.0923661,4.69650013 L44.9303917,30.349654 Z" id="Shape" transform="translate(29.965196, 30.436856) scale(-1, 1) translate(-29.965196, -30.436856) "></path>
+        </g>
+    </g>
+</svg>

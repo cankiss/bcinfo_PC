@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="65px" viewBox="0 0 65 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-video</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="14-资讯-新闻热点" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-786.000000, -527.000000)">
+        <g id="Group-12" transform="translate(786.000000, 527.000000)">
+            <circle id="Oval" fill="#FFFFFF" opacity="0.872452446" cx="32.5" cy="32.5" r="32.5"></circle>
+            <path d="M24,21.0004075 L24,43 C24,44.1045695 24.8954305,45 26,45 C26.3232452,45 26.6416739,44.9216509 26.9280146,44.7716627 L47.9276071,33.7718665 C48.9060694,33.2593382 49.2837836,32.0506514 48.7712552,31.0721891 C48.5824219,30.7116894 48.2881068,30.4173743 47.9276071,30.228541 L26.9280146,19.2287448 C25.9495523,18.7162164 24.7408656,19.0939306 24.2283373,20.0723929 C24.0783491,20.3587336 24,20.6771623 24,21.0004075 Z" id="Path-2" fill="#252525"></path>
+        </g>
+    </g>
+</svg>

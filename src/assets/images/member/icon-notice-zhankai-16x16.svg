@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-notice-zhankai</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="23-会员中心-系统公告-交互" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1463.000000, -252.000000)">
+        <g id="Group-25" transform="translate(406.000000, 190.000000)" stroke-width="0.8">
+            <g id="Group-5" transform="translate(1057.000000, 62.000000)">
+                <g id="Group">
+                    <circle id="Oval-22" stroke="#9FA4AA" cx="8" cy="8" r="7"></circle>
+                    <path d="M5,7 L7.23629769,9.64552174 C7.59283537,10.0673029 8.22378744,10.1201931 8.64556858,9.76365546 C8.68817267,9.72764161 8.72768845,9.68812583 8.76370231,9.64552174 L11,7" id="Path-24" stroke="#979797"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

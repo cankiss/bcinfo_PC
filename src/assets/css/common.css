@@ -1,0 +1,427 @@
+/*Global css style*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.42857143;
+    background-color: #fff;
+}
+
+a:link {
+    color: #033593;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #FC3A65;
+}
+
+a img {
+    border: 0;
+}
+
+
+/*浮动*/
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+
+/*文本对齐*/
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+/*字体大小*/
+
+.font-12 {
+    font-size: 12px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-22 {
+    font-size: 22px;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.font-36 {
+    font-size: 36px;
+}
+
+
+/*字体颜色*/
+
+.font-000 {
+    color: #000;
+}
+
+.font-333 {
+    color: #333;
+}
+
+.font-666 {
+    color: #666;
+}
+
+.font-999 {
+    color: #999;
+}
+
+.font-white {
+    color: #fff;
+}
+
+
+/*段落行高*/
+
+.lh-0 {
+    line-height: 0px;
+}
+
+.lh-12 {
+    line-height: 12px;
+}
+
+.lh-14 {
+    line-height: 14px;
+}
+
+.lh-16 {
+    line-height: 16px;
+}
+
+.lh-18 {
+    line-height: 18px;
+}
+
+.lh-20 {
+    line-height: 20px;
+}
+
+.lh-22 {
+    line-height: 22px;
+}
+
+.lh-24 {
+    line-height: 24px;
+}
+
+.lh-26 {
+    line-height: 26px;
+}
+
+.lh-28 {
+    line-height: 28px;
+}
+
+.lh-30 {
+    line-height: 30px;
+}
+
+
+/*外边距*/
+
+.mt-0 {
+    margin-top: 0px;
+}
+
+.mb-0 {
+    margin-bottom: 0px;
+}
+
+.ml-0 {
+    margin-left: 0px;
+}
+
+.mr-0 {
+    margin-right: 0px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+
+/*内边距*/
+
+.pt-0 {
+    padding-top: 0px;
+}
+
+.pb-0 {
+    padding-bottom: 0px;
+}
+
+.pl-0 {
+    padding-left: 0px;
+}
+
+.pr-0 {
+    padding-right: 0px;
+}
+
+.pt-5 {
+    padding-top: 5px;
+}
+
+.pb-5 {
+    padding-bottom: 5px;
+}
+
+.pl-5 {
+    padding-left: 5px;
+}
+
+.pr-5 {
+    padding-right: 5px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+.pl-15 {
+    padding-left: 15px;
+}
+
+.pr-15 {
+    padding-right: 15px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.pr-20 {
+    padding-right: 20px;
+}
+
+
+/*home-inner*/
+
+.home-inner {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*inner*/
+
+.inner {
+    width: 1190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*container*/
+
+#container {}
+
+
+/*main*/
+
+#main {
+    background-color: #fff;
+    min-height: 980px;
+}
+
+#main > .inner {
+    min-height: 500px;
+}
+
+
+/*button*/
+
+.hb-btn {
+    display: inline-block;
+    background-image: linear-gradient(124deg, #435EF2 0%, #061D9A 100%);
+    border-radius: 4px;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.hb-btn-primary {
+    height: 44px;
+    width: 120px;
+    line-height: 44px;
+    font-size: 20px;
+}
+
+.hb-btn-primary:hover {
+    background-image: linear-gradient(124deg, #1933C1 0%, #04136A 100%);
+}
+
+.hb-btn-disable,
+.hb-btn-disable:hover {
+    background-color: #ccc;
+    background-image: none;
+    color: #fff;
+    cursor: not-allowed;
+    opacity: 1;
+}
+
+.hb-btn-small {
+    height: 30px;
+    width: 80px;
+}
+
+.hb-btn-small:hover {
+    background-image: linear-gradient(-124deg, #1933C1 0%, #04136A 100%);
+}

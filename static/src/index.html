@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="renderer" content="webkit">
+    <title>火链网HBCandy - 区块链社区，信息交流分享平台</title>
+    <meta name="description" content="火链网是基于区块链技术的信息分享及交流社区。参与社区建设，会员将通过HBCandy来获得相应权益和奖励，并享有火链网支持的其它特权。">
+    <meta name="keywords" content="火链网|HBCandy">
+    <link rel="icon" href="./img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <!-- 头部视频 -->
+    <div class="indexVideo">
+        <video id="homeVideo" autoplay>
+            <source src="./source/compress.mp4" type="video/mp4">
+            <source src="./source/compress.webm" type="video/webm">
+        </video>
+        <img src="./img/videoEnd.png" alt="" class="videoEnd">
+        <h1 id="homeText">HuoBC.com
+            <br/>溯源本质 链接价值</h1>
+    </div>
+    <!-- 登陆框 -->
+    <div class="obtain">
+        <div class="container">
+            <div class="obtainLogin">
+                <div class="loginForm">
+                    <ul>
+                        <li>
+                            <span class="tips">+86中国</span>
+                            <input type="text" placeholder="请输入手机号" id="phoneNum" maxlength="11" data-id="index-input-1" data-content="首页手机号输入框">
+                        </li>
+                        <li class="mb">
+                            <span class="tips">密　码</span>
+                            <input type="password" placeholder="请输入您的密码" id="password" maxlength="12" data-id="index-input-2" data-content="首页密码输入框">
+                        </li>
+                        <li class="forgetPassword">
+                            <a href="./html/findPassword.html" data-id="index-a-1" data-content="首页忘记密码按钮">忘记密码？</a>
+                        </li>
+                        <li class="loginBtn">
+                            <button data-id="index-button-1" data-content="首页登录按钮">登　录</button>
+                        </li>
+                        <li class="register">
+                            <a href="./html/register.html" data-id="index-a-2" content="首页去注册按钮">注册领好礼</a>
+                        </li>
+                    </ul>
+                    <div class="auditStatus">
+                        <div class="auditTitle">
+                            <a href="javascript:;" class="exitLogin" data-id="index-a-3" data-content="首页退出登录按钮">退出登录</a>
+                            <p>您好！</p>
+                            <span id="userName"></span>
+                        </div>
+                        <div class="authentication">
+                            <!-- 未审核 -->
+                            <div class="toExamine">
+                                <a href="./html/identityAuthentication.html" data-id="index-a-4" data-content="首页去进行身份认证按钮">点击进行身份认证</a>
+                                <span>身份认证成功即可解冻获取HBCandy</span>
+                            </div>
+                            <!-- 审核中 -->
+                            <div class="toExamine">
+                                <a href="javascript:;" class="notBtn">审核中</a>
+                                <span>审核通过后，即可解冻获取HBCandy</span>
+                            </div>
+                            <!-- 审核通过 -->
+                            <div class="toExamine" style="height=32px;"></div>
+                            <!-- 审核未通过 -->
+                            <div class="toExamine">
+                                <span>审核未通过</span>
+                                <a href="./html/identityAuthentication.html" data-id="index-a-5" data-content="首页重新认证按钮">重新认证</a>
+                            </div>
+                        </div>
+                        <div class="HBCandy">
+                            <p>
+                                <span id="candyNum">0</span>HBCandy</p>
+                            <p>我获得的HBCandy
+                                <button id="HBCandyBtn" data-id="index-button-2" data-content="首页查看获取记录按钮">查看获取记录</button>
+                            </p>
+                            <p class="mt40">
+                                <span id="peosonNum">0</span>人</p>
+                            <p>已邀请好友</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="loginExplain">
+                    <img src="./img/PIC.png" alt="">
+                    <div class="invitingFriends">
+                        <p class="ft30">邀请赚HBCandy</p>
+                        <p class="ft30">我的邀请码：
+                            <span id="invitedCodeNum">HB0000001</span>
+                        </p>
+                        <p class="invitUrl" id="invitUrl">www.huobc.com</p>
+                        <p id="trueInvitUrl"></p>
+                        <button id="copyUrl" data-id="index-btn-3" data-content="首页复制分享链接按钮">复制链接 去邀请</button>
+                    </div>
+                </div>
+            </div>
+            <div class="textExplin">
+                <h2>完成任务获取HBCandy</h2>
+                <div class="textContent">
+                    <div>
+                        <img src="./img/get-candy.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./img/login_gift.png" alt="">
+                        <img src="./img/invite_gift.png" alt="" class="mt40">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 白皮书 -->
+    <div class="whitepaper">
+        <div class="container">
+            <h2>白皮书</h2>
+            <p>HuoBC是以平台发行的权益凭证HBCandy驱动的区块链自媒体平台和交流社区。HuoBC 旨在创建一个围绕区块链行业的综合信息服务平台和交流社区，社区注册用户将可通过创建内容和维护社区对社区进行贡献，社区将发行一种使用权益存储的凭证HBCandy，用户对社区的贡献将会得到相应HBCandy奖励，并可进行存储。用户通过HBCandy可以换取社区相应的特权，以及社区发布的相应产品的使用权限，同时平台社区的付费产品以及平台广告资源可通过HBCandy进行支付使用，这相当于为HBCandy赋予了价值基础。HuoBC之所以使用区块链技术是因为它能锁定HBCandy数量并可确保其透明性和安全性，同时确保用户所储存价值不会轻易“贬值”和消失。</p>
+            <div class="downLoad">
+                <a href="./source/houbcwhitebook.pdf" target="_blank" data-id="index-a-6" data-content="首页下载白皮书按钮">
+                    下载白皮书
+                </a>
+            </div>
+            <ul>
+                <li>
+                    <img src="./img/trend.png" alt="">
+                    <span>聚焦区块链发展</span>
+                </li>
+                <li>
+                    <img src="./img/application.png" alt="">
+                    <span>探索区块链应用</span>
+                </li>
+                <li>
+                    <img src="./img/monitor.png" alt="">
+                    <span>挖掘区块链价值</span>
+                </li>
+                <li>
+                    <img src="./img/personnel.png" alt="">
+                    <span>汇聚区块链人才</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <footer>Copyright © <span id="footerYear"></span> HuoBC.com - 沪ICP备18007723号-1</footer> 
+    <!-- 获取记录弹窗 -->
+    <div class="tc_bg">
+        <div class="dialog">
+            <h4>HBCandy获取记录</h4>
+            <a href="javascript:;" data-id="index-a-7" data-content="首页关闭获取记录弹窗按钮">×</a>
+            <p class="mycandy">我获取的HBCandy：
+                <span class="colorblue">0</span>
+            </p>
+            <div class="table">
+                <div class="th">
+                    <span class="time">时间</span>
+                    <span class="task">升级任务</span>
+                    <span class="harvest">获得HBCandy</span>
+                </div>
+                <div class="tbody">
+                    <ul id="tbodyList">
+                        <!-- <li>
+                            <span class="time">2018年1月1日 12:00:00</span>
+                            <span class="task">邀请好友</span>
+                            <span class="harvest">+3HBCandy</span>
+                        </li> -->
+                    </ul>
+                    <div id="pages">暂时没有数据哦~</div>
+                </div>
+            </div>
+            <!-- loading -->
+            <div class="showbox">
+                <div class="loader">
+                    <svg class="circular" viewBox="25 25 50 50">
+                        <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/jquery-2.2.0.min.js"></script>
+<script src="./js/layer/layer.js"></script>
+<script src="./js/jquery.nicescroll.min.js"></script>
+<script src="./js/common.js"></script>
+<script src="./js/common/jquery.statistics.js"></script>
+<script src="./js/index/index.js"></script>
+
+</html>

@@ -1,0 +1,61 @@
+    .inner {
+      position: relative;
+      min-height: 800px;
+      margin-bottom:40px;
+      background: #FFFFFF;
+      min-height: 800px;
+      box-shadow: 0 2px 4px 0 rgba(231,231,231,0.50);
+      .left-container {
+        width: 840px;
+        border-right: 1px solid #F2F2F2;
+        box-sizing: border-box;
+        margin-left: 50px;
+        float: left;
+      }
+      .right-container {
+        float: left;
+        width: 300px;
+        box-sizing: border-box;
+        .right-view {
+          width: 270px;
+          margin: 0 auto;
+          &>p{
+            line-height: 50px;
+            font-size: 20px;
+            margin-left: 10px;
+          }
+          ul {
+            margin-top: 10px;
+            li{
+              margin-bottom: 20px;
+              position: relative;
+              img {
+                display: block;
+                width: 270px;
+                height: 140px;
+              }
+              span {
+                width: 240px;
+                height: 30px;
+                display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 0;
+                padding: 5px 15px;
+                font-size: 12px;
+                background: rgba(0, 0, 0,0.6);
+                color: #fff;
+              }
+            }
+          }
+        }
+        .right-hot {
+          &>p{
+            margin-left: 35px;
+            line-height: 50px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+

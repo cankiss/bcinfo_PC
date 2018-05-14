@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="11-行情" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-936.000000, -377.000000)">
+        <g id="箭头-上升" transform="translate(936.000000, 317.000000)" fill="#309D00" fill-rule="nonzero">
+            <g id="Group-7" transform="translate(0.000000, 60.000000)">
+                <path d="M7.82,3.1834375 L5.405,1.1509375 C5.18,0.9634375 4.8125,0.9634375 4.5875,1.1509375 L2.1725,3.1834375 C1.8125,3.4909375 2.0675,4.0159375 2.5775,4.0159375 L3.5,4.0159375 C3.5,4.0159375 3.5,4.0234375 3.5,4.0234375 L3.5,7.7734375 C3.5,8.1859375 3.8375,8.5234375 4.25,8.5234375 L5.75,8.5234375 C6.1625,8.5234375 6.5,8.1859375 6.5,7.7734375 L6.5,4.0234375 C6.5,4.0234375 6.5,4.0159375 6.5,4.0159375 L7.415,4.0159375 C7.925,4.0159375 8.18,3.4909375 7.82,3.1834375 Z" id="Shape" transform="translate(4.996250, 4.766875) scale(1, -1) translate(-4.996250, -4.766875) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

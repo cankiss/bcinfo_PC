@@ -1,0 +1,653 @@
+/* 首页容器 */
+
+.container {
+	/*1440px*/
+	width: auto;
+	margin: 0 auto;
+}
+
+.mt40 {
+	margin-top: 40px;
+}
+
+img {
+	display: block;
+}
+
+h2,
+h4 {
+	font-weight: normal;
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	margin: 0;
+}
+
+ul,
+li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #fff;
+}
+
+.ft30 {
+	font-size: 30px;
+}
+
+body.open {
+	overflow: hidden;
+}
+
+button {
+	cursor: pointer;
+}
+
+
+/* 首页视频 */
+
+.indexVideo {
+	width: 100%;
+	/*min-width: 1440px;*/
+	height: 639px;
+}
+
+.indexVideo {
+	background: rgba(0, 0, 0, 1);
+	position: relative;
+	overflow: hidden;
+}
+
+.indexVideo h1,
+.indexVideo video,
+.indexVideo .videoEnd {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+}
+
+.indexVideo video {
+	object-fit: contain;
+	z-index: 8;
+}
+
+.indexVideo .videoEnd {
+	z-index: 9;
+	height: 100%;
+	display: none;
+}
+
+.indexVideo h1 {
+	width: 100%;
+	height: 459px;
+	background: rgba(0, 0, 0, 0.3);
+	margin: 0;
+	color: #fff;
+	text-align: center;
+	font-size: 60px;
+	padding-top: 180px;
+	line-height: 100px;
+	font-weight: normal;
+	z-index: 10;
+}
+
+
+/* 登录框 */
+
+.obtain {
+	background: url(../img/background.png) no-repeat center center;
+	background-size: 100% 100%;
+}
+
+.obtain .obtainLogin {
+	height: 535px;
+	padding-top: 55px;
+	width: 80%;
+	min-width: 1366px;
+	margin: 0 auto;
+}
+
+.obtain .loginForm {
+	width: 560px;
+	height: 560px;
+	background: url(../img/rectangle.png) no-repeat center center;
+	background-size: cover;
+	float: left;
+	margin-left: 4%;
+}
+
+
+/* 登录输入框 */
+
+.obtain .loginForm ul {
+	width: 470px;
+	margin: 0 auto;
+	padding-top: 90px;
+}
+
+.obtain .loginForm li {
+	height: 60px;
+	background: #fff;
+	border-radius: 5px;
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+
+.obtain .loginForm li.mb {
+	margin-bottom: 10px;
+}
+
+.obtain .loginForm li.forgetPassword {
+	height: auto;
+	background: transparent;
+	overflow: hidden;
+}
+
+.obtain .loginForm li.forgetPassword a {
+	float: right;
+	margin-right: 5px;
+}
+
+.obtain .loginForm li.loginBtn {
+	margin-bottom: 20px;
+}
+
+.obtain .loginForm li.loginBtn button {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #425DF1;
+	background: -webkit-linear-gradient(left, #435ef2, #061d9a);
+	background: -o-linear-gradient(left, #435ef2, #061d9a);
+	background: -moz-linear-gradient(left, #435ef2, #061d9a);
+	background: -ms-linear-gradient(left, #435ef2, #061d9a);
+	background: linear-gradient(left, #435ef2, #061d9a);
+	border: 0;
+	color: #fff;
+	font-size: 22px;
+	cursor: pointer;
+}
+
+.obtain .loginForm li.register {
+	background: transparent;
+	border: solid 1px #fff;
+	border-radius: 0;
+}
+
+.obtain .loginForm li.register a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 60px;
+	font-size: 22px;
+}
+
+.obtain .loginForm .tips {
+	float: left;
+	line-height: 60px;
+	width: 140px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.obtain .loginForm input {
+	width: 330px;
+	height: 100%;
+	font-size: 18px;
+	border: 0;
+	float: right;
+	padding: 0;
+	outline: none;
+}
+
+
+/* 审核状态 */
+
+.obtain .auditStatus {
+	width: 472px;
+	margin: 0 auto;
+	color: #fff;
+	padding-top: 50px;
+	display: none;
+}
+
+.obtain .auditStatus a {
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	background: #365ae4;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+.obtain .auditTitle {
+	font-size: 22px;
+}
+
+.obtain .auditTitle span {
+	margin-top: 12px;
+}
+
+.obtain .auditTitle a {
+	float: right;
+	width: 80px;
+}
+
+.obtain .authentication {
+	margin-top: 12px;
+	line-height: 24px;
+	font-size: 14px;
+}
+
+.obtain .authentication .toExamine {
+	display: none;
+}
+
+.obtain .authentication a {
+	display: inline-block;
+	padding: 0 10px;
+	margin-right: 10px;
+}
+
+.obtain .authentication a.notBtn {
+	background: transparent;
+	border: solid 1px #365ae4;
+	cursor: default;
+	color: #365ae4;
+}
+
+.obtain .authentication span {
+	margin-right: 10px;
+}
+
+.obtain .HBCandy {
+	padding-left: 80px;
+	margin-top: 40px;
+}
+
+.obtain .HBCandy p {
+	font-size: 14px;
+}
+
+.obtain .HBCandy span {
+	font-size: 60px;
+}
+
+.obtain .HBCandy button {
+	width: 102px;
+	height: 30px;
+	border: solid 1px #fff;
+	color: #fff;
+	background: transparent;
+	margin-left: 10px;
+}
+
+.obtain .loginExplain {
+	float: left;
+	margin-left: 20%;
+	margin-top: 174px;
+	color: #fff;
+	text-align: center;
+}
+
+@media only screen and (max-width: 1367px) {
+	.obtain .loginExplain {
+		margin-left: 10%;
+	    margin-top: 240px;
+	}
+	.obtain .loginExplain img{
+		width: 80%;
+	}
+	.obtain .loginExplain .invitingFriends{
+    	margin-left: -50px;
+	}
+	.obtainLogin .loginForm{
+		margin-left: 14%;
+	}
+}
+
+
+/* 邀请好友 */
+
+.obtain .loginExplain.invitMtp {
+	margin-top: 95px;
+}
+
+.obtain .invitingFriends {
+	display: none;
+}
+
+.obtain .invitingFriends .invitUrl,
+.obtain .invitingFriends button {
+	width: 362px;
+	height: 62px;
+	line-height: 62px;
+}
+
+.obtain .invitingFriends .invitUrl {
+	font-size: 40px;
+	background: url("../img/pathCopy.png") no-repeat;
+	background-size: 100% 100%;
+}
+
+.obtain .invitingFriends button {
+	border: 0;
+	color: #fff;
+	font-size: 24px;
+	background-image: linear-gradient(90deg, #EA0540 5%, #9C14A1 100%);
+}
+
+#trueInvitUrl {
+	display: none;
+}
+
+
+/* 任务说明 */
+
+.obtain .textExplin {
+	margin-top: 95px;
+}
+
+.obtain .textExplin h2 {
+	margin-bottom: 70px;
+}
+
+.obtain .textExplin .textContent {
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 106px;
+}
+
+
+/* 白皮书 */
+
+.whitepaper {
+	height: 700px;
+	background: url(../img/bg3.png) no-repeat center center;
+	background-size: 100% 100%;
+}
+
+.whitepaper h2 {
+	line-height: 80px;
+}
+
+.whitepaper p {
+	padding: 0 54px;
+	font-size: 22px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	line-height: 40px;
+	margin: 0;
+	font-weight: normal;
+}
+
+.downLoad {
+	overflow: hidden;
+}
+
+.downLoad a {
+	float: right;
+	margin-right: 60px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 26px;
+	background: url(../img/download.png) no-repeat center center;
+	padding-top: 66px;
+	cursor: pointer;
+}
+
+.downLoad a img {
+	margin: 0 auto;
+}
+
+.whitepaper ul {
+	padding: 0 54px;
+	margin-top: 40px;
+	overflow: hidden;
+}
+
+.whitepaper ul li {
+	float: left;
+	width: 25%;
+	text-align: center;
+	color: #fff;
+	line-height: 42px;
+	font-size: 32px;
+	padding-bottom: 20px;
+}
+
+.whitepaper ul li img {
+	margin: 0 auto 20px;
+}
+
+
+/* 获取弹窗 */
+
+.tc_bg {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 99;
+}
+
+.dialog {
+	width: 673px;
+	height: 500px;
+	padding: 30px 32px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -368.5px;
+	margin-top: -280px;
+	background: #fff;
+	color: #000000;
+	z-index: 99;
+}
+
+.dialog h4 {
+	font-size: 30px;
+	color: #000;
+}
+
+.dialog a {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	top: 20px;
+	right: 20px;
+	color: #333;
+	font-size: 22px;
+}
+
+.dialog .mycandy {
+	font-size: 22px;
+}
+
+.dialog .table {
+	width: 100%;
+	text-align: center;
+}
+
+.dialog .table .th {
+	background: #061D9A;
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.dialog .tbody {
+	height: 360px;
+	position: relative;
+	overflow-y: scroll;
+}
+
+.dialog .tbody li {
+	height: 59px;
+	line-height: 60px;
+	border-bottom: solid 1px #EAEAEA;
+}
+
+.colorblue {
+	color: #061D9A;
+	;
+}
+
+.dialog .table span {
+	float: left;
+	text-align: center;
+}
+
+.dialog .table span.time {
+	width: 30%;
+}
+
+.dialog .table span.task {
+	width: 40%;
+}
+
+.dialog .table span.harvest {
+	width: 30%;
+}
+
+#pages {
+	line-height: 40px;
+	display: none;
+}
+
+
+/* loading */
+
+.showbox {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+}
+
+.loader {
+	position: relative;
+	margin: 0 auto;
+	width: 100px;
+}
+
+.loader:before {
+	content: '';
+	display: block;
+	padding-top: 100%;
+}
+
+.circular {
+	-webkit-animation: rotate 2s linear infinite;
+	animation: rotate 2s linear infinite;
+	height: 100%;
+	-webkit-transform-origin: center center;
+	transform-origin: center center;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.path {
+	stroke-dasharray: 1, 200;
+	stroke-dashoffset: 0;
+	-webkit-animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+	animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+	stroke-linecap: round;
+}
+
+@-webkit-keyframes rotate {
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes rotate {
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes dash {
+	0% {
+		stroke-dasharray: 1, 200;
+		stroke-dashoffset: 0;
+	}
+	50% {
+		stroke-dasharray: 89, 200;
+		stroke-dashoffset: -35px;
+	}
+	100% {
+		stroke-dasharray: 89, 200;
+		stroke-dashoffset: -124px;
+	}
+}
+
+@keyframes dash {
+	0% {
+		stroke-dasharray: 1, 200;
+		stroke-dashoffset: 0;
+	}
+	50% {
+		stroke-dasharray: 89, 200;
+		stroke-dashoffset: -35px;
+	}
+	100% {
+		stroke-dasharray: 89, 200;
+		stroke-dashoffset: -124px;
+	}
+}
+
+@-webkit-keyframes color {
+	100%,
+	0% {
+		stroke: #d62d20;
+	}
+	40% {
+		stroke: #0057e7;
+	}
+	66% {
+		stroke: #008744;
+	}
+	80%,
+	90% {
+		stroke: #ffa700;
+	}
+}
+
+@keyframes color {
+	100%,
+	0% {
+		stroke: #d62d20;
+	}
+	40% {
+		stroke: #0057e7;
+	}
+	66% {
+		stroke: #008744;
+	}
+	80%,
+	90% {
+		stroke: #ffa700;
+	}
+}
